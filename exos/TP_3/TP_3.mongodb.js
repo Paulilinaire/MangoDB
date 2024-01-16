@@ -10,10 +10,10 @@ use("livre");
 //db.livres.find({type: "Book", year: {$gte: 2014}});
 
 // -- Liste des publications de l’auteur « Toru Ishida ».
-// db.livres.find({type: "Article"}, {title: 1}, {author: "Toru Ishida" });
+db.livres.find({authors: "Toru Ishida" });
 
 // -- Liste de tous les éditeurs (type « publisher »), distincts.
-db.livres.distinct("publisher");
+// db.livres.distinct("publisher");
 
 // -- Liste de tous les auteurs distincts.
 // db.livres.distinct("authors");
