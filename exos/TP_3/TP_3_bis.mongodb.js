@@ -41,7 +41,7 @@ use("info");
 // C. - Trouver l’id du Thinkpad et faites la requête pour récupérer ce produit avec son id.
 // db.produits.find({_id: ObjectId('65a6a2ddb334f05f47edefcb')});
 
-// D. - Récupérer les produits dont le prix est supérieur à 13723 DA
+// D. - Récupérer les produits dont le prix est supérieur à 13723
 // db.produits.find({prix: {$gt: 13723}});
 
 // E. - Récupérer le premier produit ayant le champ ultrabook à true
