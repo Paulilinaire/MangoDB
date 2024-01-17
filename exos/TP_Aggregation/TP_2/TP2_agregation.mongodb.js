@@ -9,7 +9,6 @@ use("restaus");
 //     { $limit: 10 },
 //     { $sort: { name: 1 } }
 //   ]);
-  
 
 
 // 3. Afficher la liste des 10 premiers restaurants mais en triant cette liste par ordre
@@ -40,19 +39,19 @@ use("restaus");
 
 // 6. Afficher la liste des 10 premiers restaurants avec un nouveau champ qui va afficher
 // le nombre d’avis (grades) par restaurant.
-// db.restaurants.aggregate([
-//     { $limit: 10 },
-//     { $unwind: "$grades" },
-//     {
-//       $group: {
-//         _id: "$_id",
-//         name: { $first: "$name" },
-//         borough: { $first: "$borough" },
-//         cuisine: { $first: "$cuisine" },
-//         nb_grades: { $sum: 1 }
-//       }
-//     }
-//   ]);
+db.restaurants.aggregate([
+    { $limit: 10 },
+    { $unwind: "$grades" },
+    {
+      $group: {
+        _id: "$_id",
+        name: { $first: "$name" },
+        borough: { $first: "$borough" },
+        cuisine: { $first: "$cuisine" },
+        nb_grades: { $sum: 1 }
+      }
+    }
+  ]);
   
 
 
@@ -116,9 +115,9 @@ use("restaus");
 // );
 
 
-// 11. On souhaite avoir le nombre de restaurants par quartier (borough).
-db.restaurants.aggregate(
-    { $group: { _id: "$borough", count: { $sum: 1 } } },
-    { $count: "nb_restaurant_by_borough" }
-  );
+// // 11. On souhaite avoir le nombre de restaurants par quartier (borough).
+// db.restaurants.aggregate(
+//     { $group: { _id: "$borough", count: { $sum: 1 } } },
+//     { $count: "nb_restaurant_by_borough" }
+//   );
   

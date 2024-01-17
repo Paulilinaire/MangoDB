@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="434b5b97-c492-4876-8d91-02061d97d29c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../demo/CRUD_create.mongodb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/CRUD_read-2.mongodb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/CRUD_update_delete.mongodb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/agregation.mongodb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exos/TP_Aggregation/TP_1/TP1_agregation.mongodb.js" beforeDir="false" afterPath="$PROJECT_DIR$/../exos/TP_Aggregation/TP_1/TP1_agregation.mongodb.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exos/TP_Aggregation/TP_2/TP2_agregation.mongodb.js" beforeDir="false" afterPath="$PROJECT_DIR$/../exos/TP_Aggregation/TP_2/TP2_agregation.mongodb.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="2b5XfVdiIJE809NAnkS8uAERzyz" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/Pauline/Desktop/MongoDB/demo1Java/src/Main.java",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.9-corretto-17.0.9-f644763e9732-ebaef533" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="434b5b97-c492-4876-8d91-02061d97d29c" name="Changes" comment="" />
+      <created>1705506018021</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1705506018021</updated>
+      <workItem from="1705506019107" duration="86000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

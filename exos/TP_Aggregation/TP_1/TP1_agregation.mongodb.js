@@ -3,7 +3,7 @@ use("livre");
 // 1.	Trier les publications de « Toru Ishida » par titre de livre et par page de début.
 
 // db.livres.aggregate([
-//     { $match: { authors: "Toru Ishida" } },
+//     { $match: { authors: "Toru Ishida"} },
 //     { $sort: { "title": 1, "pages.start": 1 } }
 //   ]);
   
@@ -29,8 +29,14 @@ use("livre");
 
 // 4.	Compter le nombre de publications depuis 2011 et par type.
 
-// db.livres.aggregate({$match: {year: {$gte: 2011}}},{$count: "comptage"});
-
+// db.livres.aggregate([
+//     { $match: { year: { $gte: 2011 } } },
+//     { $group: {
+//       _id: "$type",
+//       nb: { $sum: 1 }
+//     } }
+//   ]);
+  
 
 
 // 5.	Compter le nombre de publications par auteur et trier le résultat par ordre croissant.
@@ -38,8 +44,8 @@ use("livre");
 db.livres.aggregate([
     { $group: {
         _id: "$authors",
-        count: { $sum: 1 }
+        nb_publications: { $sum: 1 }
     }},
-    { $sort: { count: 1 } }
+    { $sort: { nb_publications: -1 } }
   ]);
   
