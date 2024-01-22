@@ -45,8 +45,8 @@ use("restau");
 // Me donne les nombre de restau Caribbean
 //db.restaurant.aggregate({$match : {type_of_food: "Caribbean"}}, {$count: "no_restau_caribbean"})
 
-// Me donne la note moyenne pour chaque typologie de restau
 
+// Me donne la note moyenne pour chaque typologie de restau
 //  db.restaurant.aggregate({
 //    $group: { _id: "$type_of_food", note_moyenne: { $avg: "$rating" } },
 //  });
